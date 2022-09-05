@@ -1,0 +1,424 @@
+/* global section */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+}
+
+/* header section */
+header{
+    width: 100%;
+    float: left;
+    color: white;
+}
+nav{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+.logo-part{
+    width: 20%;
+    float: left;
+    padding: 0px 10px;
+    text-align: center;
+}
+.menu-part{
+    width: 60%;
+    float: left;
+    padding: 15px 20px;
+    margin: auto;
+    text-align: center;
+}
+.menu-part li{
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.menu-part a{
+    color: white;
+    font-weight: 600;
+}
+.search-part{
+    width: 20%;
+    float: left;
+    padding: 20px 10px;
+    text-align: center;
+}
+.title{
+    width: 100%;
+    float: left;
+    background-image: url(./heder-bg.png);
+    background-size: cover;
+}
+.title h1{
+    font-size: 100px;
+    font-weight: 400;
+    padding: 300px 0px 0px 50px;
+}
+.title p{
+    width: 55%;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 10px 50px;
+}
+.title a button{
+    width: 17%;
+    color: #ffff;
+    background-color: #e8631c;
+    transition: ease-out 0.8s;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.title a{
+    font-size: 25px;
+    font-weight: 100;
+    padding: 10px 50px;
+}
+
+/* dance section */
+#dance{
+    width: 100%;
+    float: left;
+    background-image: url(./bg1.png);
+    background-size: cover;
+    color: #ffff;
+    text-align: center;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+.dance-writing-part{
+    width: 100%;
+    float: left;
+}
+.dance-writing-part h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 60px;
+}
+.dance-writing-part h2{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 300;
+    margin: auto;
+    padding: 30px 0px;
+}
+.dance-box-part{
+    width: 100%;
+    float: left;
+}
+.dance-box{
+    width: 25%;
+    float: left;
+    background-color: #303030;
+    margin: 35px;
+}
+.dance-box img{
+    width: 100%;
+}
+.dance-box p{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* pricing section */
+#pricing{
+    width: 100%;
+    float: left;
+    background-image: url(./bg2.png);
+    background-size: cover;
+    color: #ffff;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.pricing-writing-part{
+    width: 100%;
+    float: left;
+}
+.pricing-writing-part h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 60px;
+}
+.pricing-writing-part h2{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 300;
+    margin: auto;
+    padding: 20px;
+}
+.pricing-box-part{
+    width: 100%;
+    float: left;
+}
+.pricing-box{
+    width: 25%;
+    float: left;
+    background-color: #e8631c;
+    margin: 35px;
+}
+.pricing-box img{
+    width: 90%;
+    padding: 30px;
+}
+.pricing-box p{
+    width: 100%;
+    margin: auto;
+}
+.pricing-box a button{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #303030;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+/* amazing dance */
+#amazing{
+    width: 100%;
+    float: left;
+    background-color: #e8631c;
+    color: #ffff;
+}
+.amazing-box-part{
+    width: 100%;
+    float: left;
+}
+.amazing-box-image{
+    width: 50%;
+    float: left;
+
+}
+.amazing-box-image img{
+    width: 100%;
+}
+.amazing-box{
+    width: 50%;
+    float: left;
+    background-image: url(./amazing2.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.writing-part{
+    width: 100%;
+    float: left;
+    padding: 255px 0px;
+    margin: auto;
+}
+.writing-part h1{
+    width: 100%;
+    font-size: 60px;
+    font-weight: 500;
+    padding-left: 50px;
+}
+.writing-part h3{
+    width: 100%;
+    font-size: 37px;
+    font-weight: 300;
+    padding: 10px 50px;
+}
+.writing-part a button{
+    width: 40%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 50px;
+    margin: 40px;
+    background-color: #303030;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+/* statistics secsion */
+#statistics{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+    color: #ffff;
+    text-align: center;
+    padding: 150px 0px;
+}
+.statistics-writing-part{
+    width: 100%;
+    float: left;
+}
+.statistics-writing-part h1{
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+}
+.statistics-writing-part h2{
+    width: 70%;
+    font-size: 35px;
+    font-weight: 200;
+    margin: auto;
+    padding: 20px;
+}
+.statistics-box-part{
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.statistics-box{
+    width: 30%;
+    float: left;
+    font-size: 40px;
+}
+.statistics-box h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/* herbert simon */
+#herbert{
+    width: 100%;
+    float: left;
+    background-image: url(./Musicology.png);
+    background-size: cover;
+    color: #ffff;
+    text-align: center;
+}
+.writing-part{
+    width: 100%;
+    float: left;
+}
+.writing{
+    width: 100%;
+    float: left;
+}
+.writing p{
+    width: 50%;
+    font-size: 50px;
+    margin: auto;
+    font-weight: 100;
+}
+
+/* <!-- subscribe secsion --> */
+#subscribe{
+    width: 100%;
+    float: left;
+    background-image: url(./sub1.png);
+    color: #ffff;
+    text-align: center;
+    padding: 100px 0px;
+}
+.sub-writing-part{
+    width: 100%;
+    float: left;
+}
+.sub-writing-part h1{
+    font-size: 70px;
+    font-weight: 600;
+    width: 100%;
+}
+.sub-writing-part h2{
+    width: 70%;
+    font-size: 35px;
+    font-weight: 200;
+    margin: auto;
+    padding: 30px 0px;
+}
+.form-part{
+    width: 100%;
+    margin: auto;
+     
+}
+.form{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.form input{
+    width: 80%;
+    float: left;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+input::placeholder{
+    padding: 20px;
+}
+.sub{
+    width: 20%;
+    float: left;
+}
+.sub a button{
+    width: 50%;
+    float: left;
+    background-color: #303030;
+    font-size: 20px;
+    padding: 10px 0px;
+    color: #ffff;
+}
+
+/* <!-- about section --> */
+#about{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+    color: #ffff;
+    padding-top: 50px
+}
+.about-writing-part{
+    width: 95%;
+    margin: auto;
+}
+.abot-writing-box{
+    width: 50%;
+    float: left;
+    padding: 40px 0px;
+}
+.abot-writing-box h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.abot-writing-box h6{
+    width: 90%;
+    font-size: 30px;
+    font-weight: 100;
+}
+.social-icons{
+    font-size: 20px;
+}
+.social-icons i{
+    background-color: #ffff;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.about-writing-box2{
+    width: 15%;
+    float: left;
+    padding: 30px 0px;
+    margin: 10 auto;
+
+}
+.about-writing-box2 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-writing-box2 p{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 5px;
+}
+.about-writing-box2 h4{
+    padding-top: 150px;
+    font-family: initial;
+    color: aqua;
+    font-style: italic;
+}
