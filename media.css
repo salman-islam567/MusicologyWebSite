@@ -1,5 +1,5 @@
 /* mobile version */
-@media (max-width: 600px) {
+@media (min-width: 380px) and (max-width: 600px) {
 .logo-part{
     width: 100%;
     text-align: center;
@@ -9,28 +9,35 @@
     float: left;
 }
 .menu-part li{
-    margin: 0px 0px;
-    font-size: 20px;
+    margin: auto;
+    font-size: 13px;
 }
 .search-part{
-    width: 10%;
+    width: 10%
+}
+.search-part img{
+    font-size: 10px;
 }
 .title{
     width: 100%;
 }
 .title h1{
     width: 100%;
-    font-size: 40px;
-    padding: 20px 40px;
-    padding-top: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 100px;
 }
 .title p{
-    width: 80%;
-    font-size: 20px;
-    padding: 10px 40px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0px 50px;
 }
 .title a button{
-    width: 30%;
+    width: 25%;
+    font-size: 10px;
+}
+.title a{
 }
 #dance{
     width: 100%;
@@ -40,20 +47,23 @@
 }
 .dance-writing-part h1{
     width: 100%;
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: 600;
 }
 .dance-writing-part h2{
-    width: 100%;
-    font-size: 20px;
+    width: 70%;
+    font-size: 15px;
+    font-weight: 100;
  
 }
 .dance-box{
-    width: 29%;
+    width: 28%;
     margin: 10px;
 }
 .dance-box p{
     width: 90px;
     font-size: 10px;
+    font-weight: 100;
     padding: 0%;
 }
 .smal-heading{
@@ -68,33 +78,45 @@
 }
 .pricing-writing-part h1{
     width: 100%;
-    font-size: 50px;
+    font-size: 30px;
 }
 .pricing-writing-part h2{
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
 }
 .pricing-box{
-    width: 29%;
+    width: 27%;
     margin: 10px;
+    padding: 0px;
+}
+.pricing-box img{
+    width: 60%;
+    padding: 10px 10px;
+}
+.pricing-box p{
+    width: 100px;
+    font-size: 10px;
+}
+.pricing-box a button{
+    width: 60%;
     padding: 0px;
 }
 .amazing-box{
     width: 50;
-    padding: 10px;
+    padding: 20px 10px;
 }
 .writing-part{
     width: 100%;
-    padding: 40px 10px;
+    padding: 10px 10px;
 }
 .writing-part h1{
     width: 100%;
-    font-size: 30px;
+    font-size: 20px;
     padding: 0%;
 }
 .writing-part h3{
     width: 100%;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 100;
     padding: 0px;
 }
@@ -104,6 +126,7 @@
 .writing-part a button{
     width: 50%;
     padding: 0px 5px;
+    font-size: 15px;
 }
 #statistics{
     width: 100%;
@@ -126,20 +149,29 @@
 .writing p{
     width: 100%;
     font-size: 30px;
+    font-weight: 100;
 }
 .sub-writing-part h1{
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
 }
 .sub-writing-part h2{
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
 }
 .form{
-    width: 60%;
+    width: 50%;
+}
+.form input{
+    padding: 10px;
+}
+.sub{
+    width: 25%;
 }
 .sub a button{
     width: 100%;
+    font-size: 20px;
+    font-weight: 200;
 }
 #about{
     width: 100%;
@@ -147,10 +179,17 @@
 }
 .abot-writing-box h3{
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
 }
 .social-icons{
+    font-size: 5px;
+    margin: 0%;
+    padding: 0%;
+}
+.social-icons i{
     font-size: 10px;
+    padding: 5%;
+    margin: 1%;
 }
 .abot-writing-box h6{
     width: 100%;
@@ -158,25 +197,130 @@
     font-weight: 100;
 }
 .about-writing-box2{
-    width: 15%;
+    width: 16%;
 }
 .about-writing-box2 h3{
     font-size: 15px;
     font-weight: 600;
+    padding-top: 10px;
 }
 .about-writing-box2 p{
-    width: 90%;
+    width: 100%;
     font-size: 15px;
     font-weight: 100;
 }
 .about-writing-box2 h4{
     width: 100%;
-    padding-bottom: 5px 0px;
+    
 }
 }
 
 /* tablet version */
 @media (min-width: 601px) and (max-width: 768px) {
+.logo-part{
+    width: 100%;
+    text-align: center;
+}
+.menu-part{
+    width: 90%;
+    text-align: center;
+}
+.menu-part li{
+    margin: 2%;
+}
+.search-part{
+    width: 10%;
+    padding: 30px 10px;
+}
+.title{
+    width: 100%;
+}
+.title h1{
+    width: 100%;
+    font-size: 40px;
+    padding: 20px 40px;
+    padding-top: 80px;
+}
+.title p{
+    width: 80%;
+    font-size: 25px;
+}
+.title a button{
+    width: 25%;
+}
+.dance-writing-part h1{
+    width: 100%;
+    font-size: 50px;
+}
+.dance-writing-part h2{
+    width: 100%;
+    font-size: 25px;
+ 
+}
+.dance-box{
+    width: 31%;
+    margin: 30px 5px;
+}
+.pricing-writing-part h1{
+    width: 100%;
+    font-size: 50px;
+}
+.pricing-writing-part h2{
+    width: 100%;
+    font-size: 25px;
+}
+.pricing-box-part{
+    padding: 20px 0px;
+}
+.pricing-box{
+    width: 29%;
+    margin: 10px;
+    padding: 0px;
+}
+.pricing-box p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0px 10px;
+}
+.amazing-box{
+    width: 50;
+    padding: 0px;
+}
+.writing-part{
+    width: 100%;
+    padding: 40px 10px;
+}
+.writing-part h1{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+}
+.writing-part h3{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 0px;
+}
+.writing-part a button{
+    width: 40%;
+    padding: 10px 5px;
+}
+#statistics{
+    width: 100%;
+    padding: 50px 0px;
+}
+.statistics-writing-part h1{
+    width: 100%;
+    font-size: 30px;
+}
+.statistics-writing-part h2{
+    width: 100%;
+    font-size: 25px;
+}
+.statistics-box h3{
+    font-size: 20px;
+}
 }
 
 /* landschope tablet */
