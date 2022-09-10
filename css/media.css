@@ -1,0 +1,354 @@
+/* mobile version */
+@media (min-width: 300px) and (max-width: 600px) {
+.logo-part{
+    width: 100%;
+    text-align: center;
+}
+.menu-part{
+    width: 90%;
+    float: left;
+}
+.menu-part li{
+    margin: auto;
+    font-size: 15px;
+}
+.search-part{
+    width: 10%
+}
+.title{
+    width: 100%;
+}
+.title h1{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.title p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0px 50px;
+}
+.title a button{
+    width: 25%;
+    font-size: 10px;
+}
+#dance{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.dance-writing-part h1{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.dance-writing-part h2{
+    width: 70%;
+    font-size: 15px;
+    font-weight: 100;
+ 
+}
+.dance-box{
+    width: 26%;
+    margin: 12px;
+}
+.dance-box p{
+    width: 90px;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 0%;
+}
+.smal-heading{
+    font-size: 15px;
+}
+#pricing{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.pricing-writing-part h1{
+    width: 100%;
+    font-size: 30px;
+}
+.pricing-writing-part h2{
+    width: 100%;
+    font-size: 15px;
+}
+.pricing-box{
+    width: 27%;
+    margin: 10px;
+    padding: 0px;
+}
+.pricing-box img{
+    width: 60%;
+    padding: 10px 10px;
+}
+.pricing-box p{
+    width: 100px;
+    font-size: 10px;
+}
+.pricing-box a button{
+    width: 60%;
+    padding: 0px;
+}
+.amazing-box{
+    width: 50;
+    padding: 10px 10px;
+}
+.writing-part{
+    width: 100%;
+    padding: 10px 10px;
+}
+.writing-part h1{
+    width: 100%;
+    font-size: 20px;
+    padding: 0%;
+}
+.writing-part h3{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 0px;
+}
+.amazing-box-image img{
+    width: 100%;
+}
+.writing-part a button{
+    width: 50%;
+    padding: 0px 5px;
+    font-size: 10px;
+}
+#statistics{
+    width: 100%;
+    padding: 30px 0px;
+}
+.statistics-writing-part h1{
+    width: 100%;
+    font-size: 30px;
+}
+.statistics-writing-part h2{
+    width: 100%;
+    font-size: 20px;
+}
+.statistics-box h3{
+    font-size: 20px;
+}
+#herbert{
+    width: 100%;
+}
+.writing p{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 100;
+}
+.sub-writing-part h1{
+    width: 100%;
+    font-size: 30px;
+}
+.sub-writing-part h2{
+    width: 100%;
+    font-size: 20px;
+}
+.form{
+    width: 50%;
+}
+.form input{
+    padding: 10px;
+}
+.sub{
+    width: 25%;
+}
+.sub a button{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+}
+#about{
+    width: 100%;
+    padding: 20px 0px;
+}
+.abot-writing-box h3{
+    width: 100%;
+    font-size: 15px;
+}
+.social-icons{
+    font-size: 5px;
+    margin: 0%;
+    padding: 0%;
+}
+.social-icons i{
+    font-size: 10px;
+    padding: 5%;
+    margin: 1%;
+}
+.abot-writing-box h6{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+}
+.about-writing-box2{
+    width: 16%;
+}
+.about-writing-box2 h3{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.about-writing-box2 p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+}
+.about-writing-box2 h4{
+    width: 100%;
+    
+}
+}
+
+/* tablet version */
+@media (min-width: 601px) and (max-width: 768px) { 
+.logo-part{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.menu-part{
+    width: 90%;
+    float: left;
+    padding: 10px;
+    
+}
+.menu-part li{
+    margin: 0px 5px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+.search-part{
+    width: 10%;
+}
+.title{
+    width: 100%;
+    padding-top: 90px;
+}
+.title h1{
+    width: 100%;
+    font-size: 70px;
+    font-weight: 400;
+    padding: 0px 50px;
+}
+.title p{
+    width: 90%;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0px 50px;
+}
+.title a{
+    font-size: 20px;
+  
+}
+.title a button{
+    width: 20%;
+    font-size: 10px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+
+}
+.dance-writing-part h1{
+    width: 100%;
+    font-size: 50px;
+}
+.dance-writing-part h2{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+}
+.dance-box-part{
+    width: 100%;
+    padding-left: 40px;
+    margin: 0%;
+}
+.dance-box{
+    width: 30%;
+    margin: 20px 5px;
+}
+.dance-box p{
+    width: 100%;
+}
+.pricing-writing-part h1{
+    width: 100%;
+    font-size: 50px;
+}
+.pricing-writing-part h2{
+    width: 90%;
+    font-size: 20px;
+}
+.pricing-box-part{
+
+}
+.pricing-box{
+    width: 30%;
+    margin: 20px 5px;
+    padding: 0px;
+}
+.pricing-box p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0px 10px;
+}
+.amazing-box{
+    width: 50;
+    padding: 0px;
+}
+.writing-part{
+    width: 100%;
+    padding: 40px 10px;
+}
+.writing-part h1{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+}
+.writing-part h3{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 0px;
+}
+.writing-part a button{
+    width: 40%;
+    padding: 10px 5px;
+}
+#statistics{
+    width: 100%;
+    padding: 50px 0px;
+}
+.statistics-writing-part h1{
+    width: 100%;
+    font-size: 30px;
+}
+.statistics-writing-part h2{
+    width: 100%;
+    font-size: 25px;
+}
+.statistics-box h3{
+    font-size: 20px;
+}
+}
+
+/* landschope tablet */
+@media (min-width: 769px) and (max-width: 992px) {
+
+}
+/* laptop version */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
